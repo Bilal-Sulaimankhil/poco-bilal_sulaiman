@@ -1,0 +1,26 @@
+body{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.header{
+    background-color: rgb(220, 130, 195);
+    height: 80px;
+    width: 100rem; 
+}
+#main{
+    height: 25rem;
+    width: 100rem; 
+}
+.par{
+    margin-top: 100px;
+    color: red;
+    font-size: 5rem;
+}
+.footer{
+    background-color: rgb(252, 149, 123);
+    height: 70px;
+    width: 100rem;
+}
