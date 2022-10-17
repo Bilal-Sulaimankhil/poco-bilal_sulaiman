@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body{
+  background-color: grey;
+}
+main{
+    margin-top: 50px;
+    margin-bottom: 50px;
+   height: 95vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.white{
+    
+box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  
+  background: white;
+  margin: 5rem auto;
+  max-width: 112rem;
+  padding: 5rem 2rem;
+  width: 70%
+}
+header{
+  text-align: center;
+  width: 100%;
+  padding:5%;
+  font-size:140%;
+}
+section{
+  max-width: 40%;
+  box-sizing: border-box;
+  
+  
+}
+img{
+  max-width: 90%;
+  padding-top: 30px;
+  padding-bottom: 40px;
+}

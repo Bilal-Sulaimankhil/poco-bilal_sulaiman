@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+
+    width: 100wh;
+    min-height: 100vh;
+}
+img{
+    width: 450px;
+    height: 600px;
+    border: 2px solid black;
+    margin-left: 4px;
+}
+.images{
+    display: flex;  
+}
+p{
+    font-size: larger;
+    font-weight: bold;
+  text-align: center;
+}
+
+
+/* 
+.flip-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    perspective: 1200;
+}
+/* .flip-container:hover .card{
+    transform: rotateY(-180deg);
+}
+.card{
+    width: 640px;
+    height: 480px;
+    transition: all 700ms ease-in-out;
+    transform-style: preserve-3d;
+}
+
+.front, .back{
+    width: 640px;
+    height: 980px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    backface-visibility: hidden;
+}
+
+.back{
+    background: url(./images/ibo.jpg);
+   transform: rotateY(-180deg);
+}*/

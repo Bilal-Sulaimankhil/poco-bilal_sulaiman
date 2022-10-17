@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: rgb(189, 246, 250);
+    height: 4em;
+}
+ul{
+    
+display: flex;
+justify-content: space-around;
+list-style: none;
+align-items: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+div {
+    width: 35px;
+    height: 5px;
+    background-color: rgb(64, 161, 161);
+    margin: 6px 0;
+    border-radius: 10px;
+    color: rgb(67, 225, 67);
+  margin-left: 28.5em;
+  }
+li{
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 520px) {
+ nav{ display: none;}
+    
+}
+@media screen and (min-width: 523px) {
+    div{ display: none;}
+       
+   }
+

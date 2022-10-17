@@ -1,0 +1,51 @@
+nav{
+    width: 800px;
+    height: 45px;
+    background-color: rgb(147, 167, 105);
+
+}
+
+main{
+    background-color:yellowgreen ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    color:#7b4fd4 ; 
+    font-size: 3rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.lato{
+    font-family: lato; 
+    font-size: 1.5em;
+}
+
+.second{
+    font-weight: bold;
+  
+}
+.third{
+font-weight: bolder;
+}
+.fourth{
+    font-weight: lighther;
+    font-style: italic;
+}
+.background{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(104, 104, 226);
+    margin: auto;
+    margin-top:40px ;
+    
+}
+.inline ul li{
+    background-color: aqua;
+    width: 900px;
+    height: 100px;
+    display: inline;
+
+}

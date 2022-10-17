@@ -1,0 +1,37 @@
+html{
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: lightblue;
+}
+section{
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(143, 68, 64);
+}
+article{
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+background-color: rgb(219, 247, 96);
+}
+article:first-child{
+    background-color: rgb(204, 123, 239);
+}
+article:nth-child(2){
+    
+}
