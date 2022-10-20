@@ -110,12 +110,12 @@
         //
         // TODO: Task 1 - add some bombs at fixed positions.
         //
-                cells[0][0].isBomb=true
-                cells[1][7].isBomb=true
-                cells[4][9].isBomb=true
-                cells[8][3].isBomb=true
-                cells[9][3].isBomb=true
-                cells[9][9].isBomb=true
+                // cells[0][0].isBomb=true
+                // cells[1][7].isBomb=true
+                // cells[4][9].isBomb=true
+                // cells[8][3].isBomb=true
+                // cells[9][3].isBomb=true
+                // cells[9][9].isBomb=true
 
         //
         // TODO: Task 2 - Comment out the code of task 1. Instead of adding bombs in fixed places, add 10 of them in random places.
@@ -125,12 +125,12 @@
             var r
             var c
 
-        // for (var i = 0; i < BOMBS_COUNT; i++) {
-        //       r=Math.floor(Math.random()*ROWS_COUNT) 
-        //       c=Math.floor(Math.random()*COLS_COUNT) 
-        //       cells[r][c].isBomb=true;
-        //      console.log (r,c)
-        //     }
+        for (var i = 0; i < BOMBS_COUNT; i++) {
+              r=Math.floor(Math.random()*ROWS_COUNT) 
+              c=Math.floor(Math.random()*COLS_COUNT) 
+              cells[r][c].isBomb=true;
+             console.log (r,c)
+            }
 
 
         // Once the game has been initialized, we "render" it.
